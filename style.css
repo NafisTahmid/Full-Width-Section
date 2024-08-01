@@ -1,0 +1,55 @@
+.video-area-bg{
+    background-image: url(Images/background-image.jpg);
+    background-color: #DDD;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.check-icon li::before {
+    content: "\2713";
+}
+
+.video-area {
+    position: relative;
+    padding: 80px 0;
+}
+.video-area-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43%;
+    height: 100%;
+    box-shadow: 0 0 20px #888;
+}
+
+.video-play-btn {
+    position: absolute;
+    top: 39%;
+    left: 589px;
+    display: inline-block;
+    background-color: #32de84;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #FFF;
+    /* margin-top: -50px; */
+
+}
+
+.check-icon li {
+    position: relative;
+    padding-bottom: 31px;
+    padding-left: 42px;
+}
+
+.check-icon li::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #1fa463;
+}
